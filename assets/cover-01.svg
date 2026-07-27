@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg-cover-01" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D90000"/>
+      <stop offset="55%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="glow-cover-01" cx="30%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#FFEA93" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFEA93" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg-cover-01)"/>
+  <rect width="400" height="400" fill="url(#glow-cover-01)"/>
+  <g opacity="0.10">
+    <path d="M-20 340 L420 60" stroke="#FFFFFF" stroke-width="18"/>
+    <path d="M-20 380 L420 100" stroke="#FFFFFF" stroke-width="8"/>
+  </g>
+  <g transform="translate(0,10)" fill="none" stroke="#FFEA93" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" opacity="0.9">
+    <path d="M120 280 210 130 260 180 170 320Z"/><path d="M170 320 120 280"/><circle cx="255" cy="140" r="14"/>
+  </g>
+  <g opacity="0.85">
+    <rect x="16" y="16" width="34" height="34" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2"/>
+    <text x="24" y="40" font-family="monospace" font-size="16" fill="#FFFFFF" fill-opacity="0.55">FGS</text>
+  </g>
+</svg>
